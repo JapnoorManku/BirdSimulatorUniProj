@@ -1,0 +1,68 @@
+{
+  "birds": [
+    {
+      "type": "eagle",
+      "name": "Golden Eagle",
+      "region": "North America",
+      "nestMaterials": ["Twigs (1-2 cm in diameter), ", "Grass, ", "Feathers"],
+      "migration": {
+        "Spring": "Alaska",
+        "Fall": "Mexico"
+      },
+      "behaviors": {
+        "Spring": "EagleSpringBehavior",
+        "Summer": "EagleSummerBehavior",
+        "Fall": "EagleFallBehavior",
+        "Winter": "EagleWinterBehavior"
+      }
+    },
+    {
+      "type": "eagle",
+      "name": "White-tailed Eagle",
+      "region": "Europe",
+      "nestMaterials": ["Twigs", "Bark", "Leaves"],
+      "migration": {
+        "Spring": "Scandinavia",
+        "Fall": "Coastal Regions"
+      },
+      "behaviors": {
+        "Spring": "EagleSpringBehavior",
+        "Summer": "EagleSummerBehavior",
+        "Fall": "EagleFallBehavior",
+        "Winter": "EagleWinterBehavior"
+      }
+    },
+    {
+      "type": "parrot",
+      "name": "Kea",
+      "region": "New Zealand",
+      "nestMaterials": ["Roots, ", "Moss,", "Feathers"],
+      "migration": {
+        "Spring": "Alpine Areas",
+        "Fall": "Lower Altitudes"
+      },
+      "behaviors": {
+        "Spring": "ParrotSpringBehavior",
+        "Summer": "ParrotSummerBehavior",
+        "Fall": "ParrotFallBehavior",
+        "Winter": "ParrotWinterBehavior"
+      }
+    },
+    {
+      "type": "parrot",
+      "name": "Kākāriki",
+      "region": "New Zealand",
+      "nestMaterials": ["Twigs, ", "Leaves, ", "Grass"],
+      "migration": {
+        "Spring": "Forest Areas",
+        "Fall": "Warmer Regions"
+      },
+      "behaviors": {
+        "Spring": "ParrotSpringBehavior",
+        "Summer": "ParrotSummerBehavior",
+        "Fall": "ParrotFallBehavior",
+        "Winter": "ParrotWinterBehavior"
+      }
+    }
+  ]
+}
